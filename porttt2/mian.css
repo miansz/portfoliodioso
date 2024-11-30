@@ -1,0 +1,98 @@
+*{
+    padding:0; 
+    margin:0; 
+    box-sizing:border-box;
+    font-family:'Poppins', sans-serif;
+}
+body{
+min-height: 100vh;
+background-image:url(cherry.jpg)
+}
+nav{
+    position:fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 150px;
+    background-color: maroon;
+}
+nav ul{
+display: flex;
+justify-content: center;
+gap: 5em;
+ margin-right: 25em; 
+list-style: none;
+}
+nav ul a{
+color:white;
+padding: 5px 15px; 
+border-radius: 5px; 
+transition: 0.3s ease; 
+font-size: 20px;
+text-decoration: none;
+}
+
+nav > a{
+font-size: 32px;
+color:white;
+text-decoration: none;
+padding-left: 5px;
+}
+
+section{
+color:white;
+padding: 10%;
+}
+
+h1{
+    background-color:#7C7062
+}
+
+p{
+    background-color: #b6ad9f;
+    font-family: Verdana;
+}
+.sigma {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+.pic {
+    width: 40%;
+    height: 50%;
+    margin-top: 10px;
+
+margin-right: 20px;
+
+margin-bottom: 30px;
+
+margin-left: 40px;
+}
+.pics {
+    width: 40%;
+    height:50%;
+    float: right;
+}
+.ohio{color:maroon;font-size: x-large;font-family: Arial;}
+div { 
+    background-color: #7C7062;
+    width: 200px;
+    border: 20px maroon;
+    padding: 25px;
+    margin: 30px;
+    text-align: right;
+}
+.soob{
+    float: left;
+    height:200px;
+    width:150px;
+    margin:20px;
+}
+h2{
+    background-color: bisque;
+    color: #7C7062;
+}
